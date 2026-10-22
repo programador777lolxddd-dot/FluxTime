@@ -5,6 +5,8 @@
 
 <div align="center">
 
+![FluxTime — Midnight Plasma](assets/fluxtime-banner.svg)
+
 ```text
 ██╗    ██╗███████╗██╗      ██████╗ ██████╗ ███╗   ███╗███████╗    ████████╗ ██████╗     ████████╗██╗  ██╗███████╗    ███████╗██╗     ██╗   ██╗██╗  ██╗████████╗██╗███╗   ███╗███████╗    ██████╗ ███████╗██████╗  ██████╗ ███████╗██╗████████╗ ██████╗ ██████╗ ██╗   ██╗
 ██║    ██║██╔════╝██║     ██╔════╝██╔═══██╗████╗ ████║██╔════╝    ╚══██╔══╝██╔═══██╗    ╚══██╔══╝██║  ██║██╔════╝    ██╔════╝██║     ██║   ██║╚██╗██╔╝╚══██╔══╝██║████╗ ████║██╔════╝    ██╔══██╗██╔════╝██╔══██╗██╔═══██╗██╔════╝██║╚══██╔══╝██╔═══██╗██╔══██╗╚██╗ ██╔╝
@@ -40,11 +42,13 @@ El objetivo es sencillo: convertir la hora de la terminal en una pequeña experi
 - **Sin configuración:** no necesita claves API, cuentas ni conexión a internet.
 - **Salida sencilla:** presiona `Ctrl+C` para detenerlo.
 
-## Vista previa
+## Identidad visual
+
+![Logotipo de FluxTime](assets/fluxtime-logo.svg)
 
 FluxTime presenta un banner ASCII en rosa, un reloj grande en cian y la fecha en violeta. El aspecto final depende de la compatibilidad de tu terminal con las secuencias ANSI y los colores de 24 bits.
 
-> **Captura de pantalla:** todavía no hay una captura guardada en el repositorio. Cuando se añada una imagen real del programa, puede mostrarse aquí.
+> El banner y el logotipo son gráficos vectoriales del proyecto, no una captura de pantalla del programa ejecutándose.
 
 ## Tabla de contenidos
 
