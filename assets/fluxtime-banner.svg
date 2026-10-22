@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600" role="img" aria-labelledby="title desc">
+<title id="title">FluxTime — Midnight Plasma</title><desc id="desc">Promotional header for the FluxTime Python terminal clock.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070611"/><stop offset=".55" stop-color="#10051e"/><stop offset="1" stop-color="#170829"/></linearGradient>
+ <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff0080"/><stop offset="1" stop-color="#ff62c0"/></linearGradient>
+ <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00f0ff"/><stop offset="1" stop-color="#8dfaff"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#6c3e90" stroke-opacity=".15"/></pattern>
+</defs>
+<rect width="1600" height="600" fill="url(#bg)"/><rect width="1600" height="600" fill="url(#grid)"/>
+<circle cx="1300" cy="300" r="270" fill="#6c18a6" opacity=".12"/><circle cx="1300" cy="300" r="190" fill="none" stroke="#00f0ff" stroke-opacity=".14" stroke-width="2"/>
+<path d="M0 505H1600" stroke="#ff0080" stroke-opacity=".7"/><path d="M0 513H1600" stroke="#00f0ff" stroke-opacity=".3"/>
+<text x="100" y="100" font-family="monospace" font-size="25" letter-spacing="8" fill="#a98abf">PYTHON • TERMINAL CLOCK • ANSI TRUECOLOR</text>
+<text x="92" y="245" font-family="monospace" font-weight="900" font-size="112" letter-spacing="-5" fill="url(#pink)" filter="url(#glow)">FLUXTIME</text>
+<text x="100" y="300" font-family="monospace" font-size="29" letter-spacing="5" fill="#b464ff">MIDNIGHT PLASMA</text>
+<rect x="100" y="350" width="780" height="115" rx="16" fill="#080611" stroke="#422452" stroke-width="2"/>
+<circle cx="127" cy="375" r="5" fill="#ff0080"/><circle cx="145" cy="375" r="5" fill="#b464ff"/><circle cx="163" cy="375" r="5" fill="#00f0ff"/>
+<text x="135" y="435" font-family="monospace" font-size="76" font-weight="bold" letter-spacing="5" fill="url(#cyan)" filter="url(#glow)">19:42:08</text>
+<text x="100" y="550" font-family="monospace" font-size="23" letter-spacing="3" fill="#8b7b9d">LIGHTWEIGHT  /  NO EXTRA DEPENDENCIES</text>
+<g transform="translate(1190 170)" fill="none" stroke="url(#cyan)" stroke-width="9" filter="url(#glow)"><rect width="230" height="270" rx="30"/><path d="M115 48V130L165 160" stroke-linecap="round"/></g>
+<text x="1305" y="485" font-family="monospace" text-anchor="middle" font-size="20" letter-spacing="5" fill="#ff62c0">LIVE LOCAL TIME</text>
+</svg>
