@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">FluxTime</title>
+  <desc id="desc">A neon cyan digital clock mark on a midnight background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080611"/><stop offset="1" stop-color="#1a0730"/></linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00f0ff"/><stop offset=".55" stop-color="#a66bff"/><stop offset="1" stop-color="#ff0080"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="7" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="12" y="12" width="488" height="488" rx="92" fill="url(#bg)" stroke="#40235f" stroke-width="4"/>
+  <path d="M112 154H400M112 358H400" stroke="#332044" stroke-width="3" stroke-dasharray="8 12"/>
+  <g fill="none" stroke="url(#neon)" stroke-width="19" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <rect x="130" y="104" width="252" height="304" rx="34"/>
+    <path d="M256 160V260L316 300"/>
+  </g>
+  <circle cx="256" cy="260" r="11" fill="#fff"/>
+  <path d="M172 84h168" stroke="#ff0080" stroke-width="7" stroke-linecap="round"/>
+  <path d="M172 428h168" stroke="#00f0ff" stroke-width="7" stroke-linecap="round"/>
+</svg>
