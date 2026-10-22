@@ -74,18 +74,30 @@ No necesitas instalar paquetes con `pip`.
 
 ## Instalación
 
-### Opción 1: descargar el archivo
+### Desde PyPI (cuando se publique la primera versión)
 
-1. Abre el repositorio de FluxTime.
-2. Descarga `FluxTime.py`.
-3. Guarda el archivo en una carpeta de tu elección.
-4. Abre una terminal dentro de esa carpeta.
+Instala FluxTime:
 
-### Opción 2: clonar el repositorio
+```bash
+python -m pip install fluxtime-clock
+```
+
+Luego inicia el reloj con:
+
+```bash
+fluxtime
+```
+
+En Windows puedes usar `py -m pip install fluxtime-clock`. Si el comando `fluxtime` no aparece en el PATH, revisa la configuración de instalación de Python.
+
+### Desde el código fuente
+
+Clona el repositorio y ejecuta el archivo directamente:
 
 ```bash
 git clone https://github.com/programador777lolxddd-dot/FluxTime.git
 cd FluxTime
+python FluxTime.py
 ```
 
 ## Uso
